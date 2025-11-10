@@ -1,0 +1,16 @@
+Django==5.2.6
+django-cors-headers==4.8.0
+django-filter==25.1
+djangorestframework==3.16.1
+PyJWT==2.8.0
+drf-spectacular==0.26.5
+pre_commit==4.3.0
+psycopg==3.1.12
+psycopg-binary==3.1.12
+python-decouple==3.8
+PyYAML==6.0.2
+uvicorn==0.35.0
+virtualenv==20.34.0
+whitenoise==6.10.0
+redis==5.0.1
+gunicorn==23.0.0
