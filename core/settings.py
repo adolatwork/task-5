@@ -15,6 +15,14 @@ DEBUG = config("DEBUG", default=False, cast=bool)
 ALLOWED_HOSTS = ['*']
 
 
+CORS_ALLOW_ALL_ORIGINS = True
+
+CSRF_TRUSTED_ORIGINS = [
+    "https://web-production-94ab1.up.railway.app",
+]
+
+
+
 DEFAULT_APPS = [
     "django.contrib.admin",
     "django.contrib.auth",
