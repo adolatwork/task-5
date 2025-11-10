@@ -16,13 +16,13 @@ print("✅ Static files collected successfully!")
 
 
 # Create superuser if not exists
-USERNAME = os.environ.get("USERNAME", "test_user")
+USERNAME = os.environ.get("USERNAME", "998901002030")
 SUPERUSER_PASSWORD = os.environ.get("SUPERUSER_PASSWORD", "password")
 
 User = get_user_model()
-if not User.objects.filter(username=USERNAME).exists():
+if not User.objects.filter(phone_number=USERNAME).exists():
     User.objects.create_superuser(
-        username=USERNAME,
+        phone_number=USERNAME,
         password=SUPERUSER_PASSWORD
     )
     print("✅ Superuser created successfully!")
